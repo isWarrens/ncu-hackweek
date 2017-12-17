@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 17.786667rem;
+  background-color: rgb(247,247,247);
+}
+
+.cloud-place{
+  width: 10rem;
+  height: 5rem;
+}
+
+.cloud1{
+  z-index: 5;
+  position: absolute;
+  width: 3rem;
+  margin-top: 0.5rem;
+  animation: cloud1 20s;
+  -moz-animation: cloud1 20s;
+  -webkit-animation: cloud1 20s;
+  -o-animation: cloud1 20s;	
+  animation-iteration-count:infinite;
+  -webkit-animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  -webkit-animation-timing-function:linear;
+  animation-direction:alternate;
+  -webkit-animation-direction:alternate;
+}
+
+@keyframes cloud1{
+  from{margin-left:0rem}
+  to{margin-left: 7rem}
+}
+
+@-moz-keyframes cloud1{
+  from{margin-left: 0rem}
+  to{margin-left: 7rem}
+}
+
+@-webkit-keyframes cloud1{
+  from{margin-left: 0rem}
+  to{margin-left: 7rem}
+}
+
+@-o-keyframes cloud1{
+  from{margin-left: 0rem}
+  to{margin-left: 7rem}
+}
+
+#shanping img{
+  z-index: 9;
+  position: relative;
+  width:5rem;
+  margin-left: 2.5rem;
+}
+
+#shanping p{
+  color: rgb(208,67,78);
+  font-size: 0.6667rem;
+  margin-top: 0.94667rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  z-index: 9;
+  margin-top: 2.5rem;
+  width: 3.4667rem;
+  height: 1.3333rem;
+  background-color: rgb(138,38,59);
+  margin-left: 3.266667rem;
+  border-radius: 1rem;
+}
+
+.button a{
+  z-index: 9;
+  display: inline-flex;
+  width: 3.4667rem;
+  height: 1.3333rem;
+  color: white;
+  background-color: rgb(254,60,0);
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin-top: -0.2rem;
+  font-size: 0.6rem;
+  animation: button 0.3333333s;
+  -moz-animation: button 0.3333333s;
+  -webkit-animation: button 0.3333333s;
+  -o-animation: button 0.3333333s;	
+  animation-iteration-count:infinite;
+  -webkit-animation-iteration-count:infinite;
+}
+
+.button a:link, .button a:visited, .button a:hover, .button a:active{
+  text-decoration: none;
+}
+
+@keyframes button{
+  from{margin-top:-0.25rem}
+  to{margin-top: 0rem}
+}
+
+@-moz-keyframes button{
+  from{margin-top:-0.25rem}
+  to{margin-top: 0rem}
+}
+
+@-webkit-keyframes button{
+  from{margin-top:-0.25rem}
+  to{margin-top: 0rem}
+}
+
+@-o-keyframes button{
+  from{margin-top:-0.25rem}
+  to{margin-top: 0rem}
+}

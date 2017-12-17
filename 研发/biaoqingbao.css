@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.showing{
+  width: 10rem !important;
+  height: 17.77rem;
+}
+
+
+.swipe {  
+  overflow: hidden;  
+  visibility: hidden;  
+  position: relative;  
+}
+
+.swipe-wrap {  
+  overflow: hidden;  
+  position: relative;  
+}
+
+.swipe-wrap > figure {  
+  float: left;  
+  width: 100%;  
+  position: relative;  
+}
+position
+#slider {  
+  width: 10rem;   
+}
+
+figure {  
+  margin: 0;  
+}  
+
+#position{
+  position: relative;
+  top: -0.5rem;
+}
+
+#position li{
+  position: absolute;
+  display: inline-block;
+  height: 0.2133rem;
+  width: 0.2133rem;
+  border-radius: 0.2rem;
+  background: rgb(210,210,210);
+  opacity: 0.5;
+  z-index: 999;
+}
+
+#position li.on{
+  background: rgb(254,211,1);
+}
+
+#position1{
+  left: 4.3rem;
+}
+
+#position2{
+  left: 4.7933rem;
+}
+
+#position3{
+  left: 5.28666rem;
+}
+
+#position4{
+  left: 5.78rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="biaoqingbao.css" />
+    <link rel="stylesheet" href="css/cover.css">
+    <meta content="yes" name="apple-mobile-web-app-capable"> 
+    <meta content="yes" name="apple-touch-fullscreen"> 
+    <meta content="telephone=no,email=no" name="format-detection">
+    <script type="text/javascript" src="js/flexible_css.debug.js" /></script>
+    <script type="text/javascript" src="js/flexible.debug.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="option">
+        <div id="slider" class="swipe" style="visibility:visible">
+          <div class="swipe-wrap">
+            <figure>
+              <div>
+                <img class="showing" src="img/1.png" >
+              </div>
+            </figure>
+            <figure>
+              <div>
+                <img class="showing" src="img/2.png" >
+              </div>
+            </figure>
+            <figure>
+              <div>
+                <img class="showing" src="img/3.png">
+              </div>
+            </figure>
+            <figure>
+              <div>
+                <div class="cloud-place">
+                    <img class="cloud1" src="img/cloud.png" />
+                    <!-- <img class="cloud4" src="img/cloud.png" /> -->
+                </div>
+                <div id="shanping">
+                  <img id="shanping" src="img/shanping.png">
+                  <p>欢迎使用礼物荐</p>
+                </div>
+                <div class="button">
+                  <a href="nin.html">开始挑选</a>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <nav>  
+            <ul id="position">  
+              <li class="on" id="position1"></li>  
+              <li class="" id="position2"></li>  
+              <li class="" id="position3"></li>
+              <li class="" id="position4"></li> 
+            </ul>  
+          </nav>          
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script>
+      localStorage.clear();
+      window.mySwipe = Swipe(document.getElementById('slider'), {  
+        callback: function(pos) {  
+        var i = bullets.length;  
+        while(i--){  
+            bullets[i].className = ' ';  
+        }  
+        bullets[pos].className = 'on';  
+        }  
+      });
+      var bullets = document.getElementById('position').getElementsByTagName('li');
+    </script>
+  </body>
+</html>

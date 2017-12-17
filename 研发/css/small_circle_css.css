@@ -1,0 +1,203 @@
+.header{
+  position: relative;
+  height: 1.97333rem;
+  width: 10rem;
+  z-index: 2;
+}
+
+.return {
+  position: absolute;
+  z-index: 2;
+  height: 0.533333rem;
+  margin-top: 0.9rem;
+  margin-left: 0.826667rem;
+  background-color: white !important;
+
+}
+
+.content{
+  position: relative;
+  width: 10rem;
+  height: 14.24rem;
+}
+
+.big_font{
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.font{
+  text-align: center;
+  color: rgb(149,149,149);
+  size: 0.433333rem;
+  font-family: PingFangSC-Regulargfin;
+}
+
+#small_font1{
+  position: absolute;
+  top:1.133333rem ;
+  display: inline-block;
+  width: 10rem;
+  height: 1rem;
+}
+span{
+  position: absolute;
+  display: inline-block;
+  top: 0.16rem;
+  left: 4.2rem;
+}
+
+.smallcirle{
+  top: 1.2rem;
+  position: absolute;
+  display: inline-block;
+  height: 1.68rem;
+  width: 1.68rem;
+  border-radius: 50%;
+  border: 0.08rem solid rgb(33,148,255);
+  font-size: 0.4133333rem;
+  line-height: 1.55rem;
+  font-family: PingFangSC-Regulargfin;
+}
+
+.smallcirle2{
+  top: 1.2rem;
+  position: absolute;
+  display: inline-block;
+  color: rgb(255,110,154);
+  height: 1.68rem;
+  width: 1.68rem;
+  border-radius: 50%;
+  border: 0.08rem solid rgb(255,110,154);
+  font-size: 0.4133333rem;
+  line-height: 1.55rem;
+  font-family: PingFangSC-Regulargfin;
+}
+
+#cicle1{
+  position: absolute;
+  left:0.133333rem ;
+  color: rgb(33,148,255);
+}
+
+#cicle2{
+  position: absolute;
+  left: 2.186666rem;
+  color: rgb(33,148,255);
+}
+
+#cicle3{
+  position: absolute;
+  left: 4.12rem;
+  color: rgb(33,148,255);
+}
+
+#cicle4{
+  position: absolute;
+  left:0.133333rem ;
+}
+#cicle5{
+  position: absolute;
+  left: 2.186666rem;
+}
+
+#cicle6{
+  position: absolute;
+  left: 4.12rem;
+}
+
+#small_font2{
+  position: absolute;
+  bottom:7.6rem;
+  display: inline-block;
+  width: 10rem;
+}
+
+.dashedwidth{
+  position: absolute;
+  top: 0.4rem;
+   border-bottom: 0.08rem dotted rgb(212,212,212);
+   width:1.92rem;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.dashed2{
+ right: 1.96rem;
+}
+
+.move_font{
+ left: 4.6rem;
+}
+
+.dashed1{
+  left: 1.97333rem;
+}
+
+.name {
+  position: absolute;
+  height: 1.97333rem;
+  width: 10rem;
+}
+
+.bottom-img{
+  height: 1.57333rem;
+  width:10rem;
+}
+
+.footer{
+  text-align: center;
+  position: absolute;
+  top: 16.23rem;
+  width: 10rem;
+  line-height: 1.573rem;
+  background-color: #ffcad0;
+  font-size: 0.7rem;
+}
+
+.footer a:link ,.footer a:visited{
+  color: white;
+
+}
+
+.tooltip-background{
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  width:10rem;
+  height:17.7866667rem;
+  background: rgba(0,0,0,0.5)
+}
+
+.tooltip{
+  position: fixed;
+  text-align: center;
+  font-size: 0.41333rem;
+  color: rgb(139,139,139);;
+  height: 3.46666rem;
+  width: 8.32rem;
+  background: rgb(247,247,247);
+  top: 6.2rem;
+  left: 0.84rem;
+  border-radius: 0.25rem;
+}
+
+.tooltip p{
+  padding-top: 0.56rem
+}
+
+.tooltip b{
+  color: rgb(102,151,207);
+}
+
+.tooltip div{
+  color: rgb(102,151,207);
+  padding-top: 0.4133rem;
+  position: absolute;
+  width:8.32rem;
+  height: 0.866667rem;
+  bottom: 0;  
+  border-top: 0.06666666rem  solid rgb(139,139,139);
+}
+
+

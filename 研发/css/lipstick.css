@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(247,247,247);
+}
+
+.header{
+  position: relative;
+  height: 2.21rem;
+}
+
+#name{
+  position: fixed;
+  width: 10rem;
+  z-index: 2;
+}
+
+#return{
+  position: fixed;
+  height: 0.6533333rem;
+  margin-top: 0.9066667rem;
+  margin-left: 0.46667rem;
+  z-index: 2;
+}
+
+.subheading p{
+  margin-top: 1rem;
+  margin-left: 0.76rem;
+  color: rgb(69,69,69);
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.subheading div{
+  height: 0;
+  width: 2.4rem;
+  border: 0.053rem solid rgb(212,212,212);
+  margin-left: 0.76rem;
+  margin-top: 0.7867rem;
+}
+
+.headline{
+  color: rgb(253,77,90);
+  font-weight: 600;
+  font-size: 0.4933rem;
+  margin-left: 0.76rem;
+  margin-top: 0.6rem;
+}
+
+.showing{
+  margin-top: 0.493rem;
+  width: 10rem !important;
+  height: 4.96rem !important;
+  background-color: #aaaaaa;
+}
+
+.introduce{
+  color: rgb(95, 95, 95);
+  margin: 0.54667rem 0.76rem 0 0.76rem;
+  font-size: 0.4933rem;
+}
+
+.division{
+  height: 0;
+  width: 2.4rem;
+  border: 0.053rem solid rgb(212,212,212);
+  margin-left: 0.76rem;
+  margin-top: 0.74667rem;
+}
+
+.price{
+  color: rgb(95, 95, 95);
+  margin: 0.54667rem 0.76rem 0 0.76rem;
+  font-size: 0.4933rem;
+}
+
+.price p{
+  color: rgb(253,77,90);
+  display: inline;
+}
+
+.finish{
+  margin-top: 0.72rem;
+  height: 0.26667rem;
+  width: 10rem;
+  background-color: rgb(235,235,235)
+}
+
+.footer{
+  width: 10rem;
+}
+
+.swipe {  
+  overflow: hidden;  
+  visibility: hidden;  
+  position: relative;  
+}  
+.swipe-wrap {  
+  overflow: hidden;  
+  position: relative;  
+}  
+.swipe-wrap > figure {  
+  float: left;  
+  width: 10rem;  
+  position: relative;  
+}  
+
+.swipe-wrap div{
+  margin-top: 0.493rem;
+  width: 10rem;
+  height: 4.96rem;
+}
+
+#slider {  
+  width: 10rem;   
+}  
+figure {  
+  margin: 0;  
+}  
+
+.position{
+  position: relative;
+  top: -0.5rem;
+}
+
+.position li{
+  position: absolute;
+  display: inline-block;
+  height: 0.2133rem;
+  width: 0.2133rem;
+  border-radius: 0.2rem;
+  background: white;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+.position li.on{
+  background: rgb(253,77,90);
+}
+
+#position1{
+  left: 4.3rem;
+}
+
+#position2{
+  left: 4.7933rem;
+}
+
+#position3{
+  left: 5.28666rem;
+}
+
+#position4{
+  left: 5.28666rem;
+}
