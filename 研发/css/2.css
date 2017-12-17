@@ -1,0 +1,332 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular, sans-serif !important;
+  text-decoration: none;
+  background-color: rgb(236,236,236)!important; ;
+}
+
+ a{
+   color: #fd4c5a;
+ }
+
+
+.header{
+  position: relative;
+  height: 1.97333rem;
+  width: 10rem;
+  z-index: 2;
+}
+
+.return {
+  position: absolute;
+  z-index: 2;
+  height: 0.533333rem;
+  margin-top: 0.9rem;
+  margin-left: 0.826667rem;
+  background-color: white !important;
+
+}
+
+
+.name {
+  position: absolute;
+  height: 1.97333rem;
+  width: 10rem;
+}
+
+.main-content{
+ background-color: rgb(247,247,247);
+  position: relative;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  height: 6.48rem;
+  margin-left: 0.32rem;
+  border-radius: 0.333333rem 0.333333rem 0.333333rem 0.3333333rem;
+  width: 9.36rem;
+  text-align: center;
+}
+
+.comment{
+  position: relative;
+  height: 8.92533333rem;
+  margin-bottom: 0rem;
+  margin-right: 0.32rem;
+  margin-left: 0.32rem;
+  width: 9.36rem;
+  border-radius: 0.333333rem 0.333333rem 0.333333rem 0.3333333rem;
+  background-color: rgb(247,247,247);
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.title{
+  position: relative;
+  color: rgb(149,149,149);
+  top: 0.23rem;
+  font-size: 0.573333rem;
+}
+
+.font-inner{
+  font-size:0.52rem;
+  display: inline-block;
+  color: rgb(149,149,149);
+  background-color: rgb(247,247,247);
+  margin-top: 0.306667rem;
+  position: relative;
+  top: 0;
+}
+
+.font{
+  font-size: 0.57333rem;
+}
+
+
+.dashed{
+  position: absolute;
+  width: 2.301467rem;
+  height: 3rem;
+  top: 2.85rem;
+  left: 3.5rem;
+}
+
+.dashedwidth{
+  width: 2.301467rem;
+}
+
+.dashed1{
+  height: 0.5rem;
+  border-bottom: 0.08rem dotted rgb(212,212,212) ;
+}
+
+.dashed2{
+  height: 1rem;
+  border-bottom: 0.08rem dotted rgb(212,212,212) ;
+}
+
+.dashed3{
+  height: 1rem;
+  border-bottom: 0.08rem dotted rgb(212,212,212) ;
+}
+
+.rightcfont{
+  display: inline-block;
+  width: 2.301467rem;
+  height: 0.826667rem;
+  margin-right: 1.7rem;
+  background-color: rgb(247,247,247);
+  text-align: center;
+  line-height: 0.5rem;
+  font-weight: 500;
+  text-decoration: underline !important;
+}
+
+.left-compare{
+  width: 3.333333rem;
+  height: 1.333333rem;
+  border: 0.0625em solid rgb(181,181,181);
+  border-radius: 0.333333rem 0.333333rem 0.333333rem 0.3333333rem;
+  background-color: rgb(247,247,247);
+  margin-left: 0.506667rem;
+  display: inline-block;
+  position: absolute;
+  left: 0rem;
+  top: 1.253333rem;
+  font-size: 0.52rem;
+}
+
+.rightdetail_compare{
+  display: inline;
+  position: absolute;
+  height: 3rem;
+  right: 1.5rem;
+  top: 2.85rem;
+  width: 2.5rem;
+  font-size: 0.25rem;
+  line-height: 0.95rem;
+}
+
+
+.leftdetail_compare {
+  display: inline-block;
+  position: absolute;
+  height: 3rem;
+  left: 1.5rem;
+  top: 2.75rem;
+  font-size: 0.25rem ;
+  line-height: 1.1rem;
+}
+
+.leftcfont{
+  height: 0.333333rem !important;
+  display: inline-block;
+  width: 2.301467rem;
+  margin-right: 1.7rem;
+  background-color: rgb(247,247,247);
+  text-align: center;
+}
+
+.left-1{
+  height: 0.7641667rem;
+  width: 2.301467rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  margin-top: 0.253333rem;
+  margin-left: 0.1rem;
+  font-size: 0.52rem;
+  background-color: white;
+}
+
+.left-2{
+  position: absolute;
+  height: 0.826667rem;
+  width: 2.301467rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  margin-left: 0.1rem;
+  border-top: 0;
+  z-index: 3;
+  background-color: white;
+  display: none;
+  color:rgb(212,212,212) ;
+}
+
+.left-3{
+  margin-top: 0.826667rem;
+  display: none;
+  position: absolute;
+  width: 2.301467rem;
+  height: 0.826667rem;
+  left: 0.1rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  border-top: 0;
+  border-radius: 0 0 0.333333rem 0.333333rem;
+  color:rgb(212,212,212);
+  z-index: 1000;
+  background-color: white !important;
+}
+
+.left-4{
+  width: 2.301467rem;
+  height: 0.826667rem;
+  left: 0.1rem;
+}
+
+
+.left-trigon{
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-top:0.253333rem transparent solid;
+  border-bottom: 0.253333rem transparent solid;
+  border-left:0.213333rem rgb(181,181,181) solid;
+  border-right: 0.213333rem transparent solid;
+  display: inline-block;
+  margin-top:0.4533333rem;
+  right: 0.306667rem;
+  border-radius: 0.15rem 0 0 0.15rem;
+}
+
+.right-compare{
+  width: 3.333333rem;
+  height: 1.333333rem;
+  border: 0.0625em solid rgb(181,181,181);
+  border-radius: 0.333333rem 0.333333rem 0.333333rem 0.3333333rem;
+  background-color: rgb(247,247,247);
+  margin-right: 0.506667rem;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 1.253333rem;
+  font-size: 0.52rem ;
+}
+
+.right-rectangular{
+  background-color: white;
+  height: 0.7641667rem;
+  width: 2.301467rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  margin-top: 0.253333rem;
+  margin-left: 0.1rem;
+}
+
+.right-2{
+  position: absolute;
+  height: 0.826667rem;
+  width: 2.301467rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  margin-left: 0.1rem;
+  border-top: 0;
+  z-index: 3;
+  display: none;
+  background-color: white;
+  color:rgb(212,212,212) ;
+}
+
+.right-3{
+  margin-top: 0.826667rem;
+  display: none;
+  background-color: white;
+  position: absolute;
+  width: 2.301467rem;
+  height: 0.826667rem;
+  left: 0.1rem;
+  border: 0.03125rem solid rgb(212,212,212);
+  border-top: 0;
+  border-radius: 0 0 0.333333rem 0.333333rem;
+  color:rgb(212,212,212) ;
+  z-index: 1000;
+
+}
+
+.right-trigon{
+  position: absolute;
+  height: 0rem;
+  width: 0rem;
+  border-top:0.253333rem transparent solid;
+  border-bottom: 0.253333rem transparent solid;
+  border-left:0.213333rem rgb(181,181,181) solid;
+  border-right: 0.213333rem transparent solid;
+  display: inline-block;
+  margin-top:0.4533333rem;
+  right: 0.306667rem;
+  border-radius: 0.15rem 0 0 0.15rem;
+}
+
+
+.bottom-img{
+  position: absolute;
+  height: 1.57333rem;
+  width:10rem;
+  bottom: 0;
+}
+
+.bottom{
+  position: absolute;
+  width: 10rem;
+  right: 4.68rem;
+  bottom: 0;
+  height: 1.57333rem;
+}
+
+.jfont{
+  color: gray;
+  font-size: 0.35rem;
+  margin-top: 0.5rem;
+  word-wrap: break-word;
+  line-height: 0.5rem;
+  text-align: left;
+  overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
