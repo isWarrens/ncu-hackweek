@@ -201,7 +201,8 @@ body,html{
   border-radius: 0 0 0.333333rem 0.333333rem;
   color:rgb(212,212,212);
   z-index: 1000;
-  background-color: white !important;
+  background-color: white;
+  opacity: 1;
 }
 
 .left-4{

@@ -25,31 +25,36 @@ window.onload=function () {
   var arr1=new Array()
 
 
-    for (var a = 1; a < 7; a++) {
+    for (var a = 1; a < 7; a++) {//判断“ta所喜爱的事物”被选中的小类并放入一个数组
       if (localStorage.getItem("sta"+ a) != null) {
         arr[num] = localStorage.getItem("sta" + a);
         num += 1;
       }
     }
-
-    function judenum1() {
+    function judenum1() {//判断个数，插入html
       if (num == 1) {
         left1_recover.innerHTML=arr[0];
+        left2_recover.style.opacity=="0";
+        left3_recover.style.opacity=="0";
       }
       if (num == 2) {
         left1_recover.innerHTML = arr[0];
         left2_recover.innerHTML = arr[1];
+        left3_recover.style.backgroundColor=="rgb(247,247,247)";
+        alert(left3_recover.style.opacity);
+        left2_recover.style.borderRadius="0 0 0.333333rem  0.333333rem";
       }
       if (num == 3) {
         left1_recover.innerHTML = arr[0];
         left2_recover.innerHTML = arr[1];
         left3_recover.innerHTML = arr[2];
+        alert(left3_recover.innerHTML);
       }
     };
   judenum1(num);
 
 
-  for (var i = 1; i < 7; i++) {
+  for (var i = 1; i < 7; i++) {//“nin所喜欢的事物”同“ta所喜欢的事物”
     if (localStorage.getItem("snin"+ i) != null) {
       arr1[num1] = localStorage.getItem("snin" + i);
       num1 += 1;
@@ -77,7 +82,7 @@ window.onload=function () {
   var y_font=right1_recover.innerHTML;
 
 
-  function innnerfont_recover(x,y,z,a) {
+  function innnerfont_recover(x,y,z,a) {//判断下拉框的各种变化，并且动态改变url利用下面的getleft函数获取数据
     a.onclick = function () {
       if ((control_num % 2) === 0) {
         y.style.display = "block";
@@ -203,7 +208,7 @@ window.onload=function () {
   }
   click_recoverleft(left1_recover,left2_recover,left3_recover,left_change);
 
-    function judeclassoneleft(x) {
+    function judeclassoneleft(x) {//判断左边下拉框中第一个框的第一个大类
       if ((x == "口红") || (x == "香氛") || (x == "护肤")) {
         first_class = "化妆品";
       }
@@ -213,7 +218,7 @@ window.onload=function () {
     }
 
 
-  function judeclassoneright(x) {
+  function judeclassoneright(x) {//判断右边下拉框中第一个框的第一个大类
     if ((x == "口红") || (x == "香氛") || (x == "护肤")) {
       first_class2 = "化妆品";
     }
@@ -225,7 +230,7 @@ window.onload=function () {
     judeclassoneright(right1_recover.innerHTML);
 
 
-function GETleft() {
+function GETleft() {//ajax get左边的下拉框中第一个框里的数据
 
     function Ajax(url) {
       var xmlHttpReq = null;
@@ -245,7 +250,7 @@ function GETleft() {
         if (xmlHttpReq.readyState == 4) {
           if (xmlHttpReq.status == 200) {
             var data = xmlHttpReq.responseText;
-            data1 = eval('(' + data + ')');
+            data1 = eval('(' + data + ')');//转化responsetext里的json格式数据变成对象，并插入html
             lefecompare1.innerHTML = data1.products.level_top;
             lefecompare2.innerHTML=data1.products.level_middle;
             lefecompare3.innerHTML = data1.products.level_low;
@@ -257,7 +262,7 @@ function GETleft() {
 }
 GETleft();
 
-function GETright() {
+function GETright() {//同左边的操作
 
   function Ajax(url) {
     var xmlHttpReq = null;
@@ -301,5 +306,4 @@ function GETright() {
     onclick(rightcompare1, "a");
     onclick(rightcompare2, "b");
     onclick(rightcompare3, "c");
-    localStorage.clear()
   };

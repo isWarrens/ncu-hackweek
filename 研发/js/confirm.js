@@ -1,3 +1,4 @@
+//注释同confirm2（其实可以把他们封装的好点，但是好像参数太多就选择了复制粘贴修改。。。。）
 $(document).ready(function(){
   $(".change").click(function(){
     if($("#select1").css("display")=="block"){
@@ -25,7 +26,7 @@ if (localStorage.getItem("color")==="white") {
   select1.style.backgroundColor = localStorage.getItem("background");
   select1.style.borderColor = localStorage.getItem("bordercolor");
   name='电子产品';
-  window.localStorage.setItem("ta",name);
+  window.localStorage.setItem("nin",name);
   num=1;
 }
 
@@ -36,7 +37,7 @@ var changeblue=function (x) {
       window.localStorage.setItem("color","white");
       window.localStorage.setItem("background","#2194ff");
       name='电子产品';
-      window.localStorage.setItem("ta", name);
+      window.localStorage.setItem("nin", name);
       x.style.color = window.localStorage.getItem("color");
       x.style.backgroundColor = window.localStorage.getItem("background");
 
@@ -46,7 +47,7 @@ var changeblue=function (x) {
       window.localStorage.setItem("background","white");
       window.localStorage.setItem("bordercolor","#2194ff");
       name=null;
-      window.localStorage.setItem("ta", name);
+      window.localStorage.setItem("nin", name);
       x.style.color=window.localStorage.getItem("color");
       x.style.borderColor=window.localStorage.getItem("bordercolor");
       x.style.backgroundColor=window.localStorage.getItem("background");
@@ -62,7 +63,7 @@ if (localStorage.getItem("color2")==="white") {
   select2.style.backgroundColor = localStorage.getItem("background2");
   select2.style.borderColor= localStorage.getItem("bordercolor2");
   name1='美妆';
-  window.localStorage.setItem("ta2",name1);
+  window.localStorage.setItem("nin2",name1);
   num2=1;
 }
 
@@ -73,7 +74,7 @@ var changeblue2=function (x) {
       window.localStorage.setItem("color2","white");
       window.localStorage.setItem("background2","#ff6ea4");
       name1='美妆';
-      window.localStorage.setItem("ta2", name1);
+      window.localStorage.setItem("nin2", name1);
       x.style.color = window.localStorage.getItem("color2");
       x.style.backgroundColor = window.localStorage.getItem("background2");
 
@@ -83,7 +84,7 @@ var changeblue2=function (x) {
       window.localStorage.setItem("background2","white");
       window.localStorage.setItem("bordercolor2","#ff6ea4");
       name1=null;
-      window.localStorage.setItem("ta2", name1);
+      window.localStorage.setItem("nin2", name1);
       x.style.color=window.localStorage.getItem("color2");
       x.style.borderColor=window.localStorage.getItem("bordercolor2");
       x.style.backgroundColor=window.localStorage.getItem("background2");
